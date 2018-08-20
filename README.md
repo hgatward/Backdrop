@@ -1,12 +1,15 @@
 # Backdrop
-Material Design Backdrop component (see https://material.io/design/components/backdrop.html)
+A Material Design Backdrop component (see https://material.io/design/components/backdrop.html)
 
 A Backdrop is a custom ViewGroup that requires exactly two children, one 'back' and one 'front' (using the layout_layer attribute as shown in the example below).
 
+Activate a layer with:
 ```kotlin
 backdrop.activateLayer(Backdrop.Layer.FRONT)
 ```
 
+Listen to layer activations with:
+(e.g. change a toolbar's navigation icon to a close icon when the back layer is active and the menu icon when the front layer is active)
 ```kotlin
 backdrop.addOnActivateLayerListener{
   when (it){
@@ -21,6 +24,8 @@ When the back layer is activated the front layer collapses, revealing the back l
 When the front layer is activated it expands. A section of the back layer will always remain visible. The height of this persistently revealed section can be set with either the persistent_back_height or persistent_back_view attributes of the backdrop.
 
 The front layer is active by default.
+
+The FrontLayer view is included for simplicity. It uses a rectangle with rounded top corners as the background, inflates the layout_front_subheader layout providing an expand button which is only shown when the front layer is collapsed and activates itself when tapped. Note that any view/viewgroup may be used as the front layer, so long as layout_front equals 'front'.
 
 ## Example
 
