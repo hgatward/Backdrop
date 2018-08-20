@@ -25,7 +25,7 @@ When the front layer is activated it expands. A section of the back layer will a
 
 The front layer is active by default.
 
-The FrontLayer view is included for simplicity. It uses a rectangle with rounded top corners as the background, inflates the layout_front_subheader layout providing an expand button which is only shown when the front layer is collapsed and activates itself when tapped. Note that any view/viewgroup may be used as the front layer, so long as layout_front equals 'front'.
+The FrontLayer view is included for simplicity. It uses a rectangle with rounded top corners as the background, inflates the layout_front_subheader layout providing an expand button which is only shown when the front layer is collapsed and activates itself when tapped. The subheader attribute sets the subheader's text. Note that any view/viewgroup may be used as the front layer, so long as layout_front equals 'front'.
 
 ## Example
 
