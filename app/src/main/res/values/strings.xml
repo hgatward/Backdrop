@@ -1,6 +1,8 @@
 <resources>
     <string name="app_name">Backdrop</string>
 
+    <string name="back_layer_content">Back layer content</string>
+
     <string name="lorem_ipsum_short">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris id hendrerit dolor. Integer vulputate nisl non justo volutpat fringilla. Mauris vitae dui sem. Maecenas ac neque eleifend elit ultrices molestie. Integer id augue enim. Donec gravida lacus odio, quis sodales erat interdum tincidunt. Phasellus molestie feugiat sem id aliquet. Vestibulum ac nulla vehicula, viverra ligula quis, dictum odio. Sed eleifend risus eget lacus sagittis, vitae elementum tortor convallis. Sed ornare libero imperdiet, cursus augue sit amet, commodo lectus. Maecenas eget lacinia magna. Nullam hendrerit erat vitae elit finibus, ac convallis magna feugiat. Nunc cursus lacinia risus non viverra. Morbi non nunc ac eros euismod ullamcorper id non urna.</string>
 
     <string name="lorem_ipsum">

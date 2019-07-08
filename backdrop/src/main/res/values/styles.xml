@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Widget.Backdrop" parent="android:style/Widget">
+        <item name="min_front_height">56dp</item>
+        <item name="visible_back_height">56dp</item>
+    </style>
+</resources>
